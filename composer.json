@@ -30,12 +30,22 @@
       "homepage": "https://www.phil-taylor.com/"
     }
   ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/dhanjayprasad/php-resque"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/dhanjayprasad/php-resque-scheduler"
+    }
+  ],
   "require": {
     "symfony/framework-bundle": ">=2.8,<4.0",
     "symfony/console": ">=2.8,<4.0",
     "symfony/process": ">=2.8,<4.0",
-    "dhanjayprasad/php-resque": "*",
-    "dhanjayprasad/php-resque-scheduler": "*"
+    "chrisboulton/php-resque": "dev-master",
+    "chrisboulton/php-resque-scheduler": "dev-master"
   },
   "require-dev": {
     "phpunit/phpunit": "~5.4"
